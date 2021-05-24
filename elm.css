@@ -1,0 +1,24 @@
+#elm-area table {
+	border-collapse: collapse;
+	padding: auto;
+}
+
+#elm-area .tm {
+	display: flex;
+	justify-content: center;
+  align-items: center;
+	flex-direction: column;
+}
+
+#elm-area .tape td {
+	border: solid thin;
+	white-space: pre;
+	font-family:
+		'Noto Sans Mono CJK JP',
+		monospace;
+}
+
+#elm-area .transition td,th {
+	border: solid thin;
+	white-space: pre;
+}
